@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+header {
+    background: #1d1d86;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5rem;
+    height: 6rem;
+}
+
+header a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+}
+
+header ul {
+    display: flex;
+    gap: 2rem;
+}
+
+header ul,
+header li {
+    list-style: none;
+}
+
+h1{
+    margin-top: 10rem;
+}
